@@ -36,9 +36,11 @@ const RegisterBooking = () => {
                     </div>
                     <b className="px-32 w-[500px]">
                         {day.restDay ?
-                            <TimePicker.RangePicker placeholder
-                                value={[day.endTime ? dayjs(day.startTime, format) : null, day.endTime ? dayjs(day.endTime, format) : null]}
-                                format={format}/> :
+                            <TimePicker.RangePicker placeholder disabledTime={() => ({
+                                disabledHours: () => [0, 1, 2, 3, 4, 5, 6, 7, 8, 20, 21, 22, 23, 24]
+                            })}
+                                                    value={[day.endTime ? dayjs(day.startTime, format) : null, day.endTime ? dayjs(day.endTime, format) : null]}
+                                                    format={format}/> :
                             'Closed'}
                     </b>
                     <div onClick={() => toggleLunchBreak(day)}>
