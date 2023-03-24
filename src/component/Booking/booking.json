@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Monday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "",
+    "endTime": ""
+  },
+  {
+    "id": 2,
+    "name": "Tuesday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "08:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": 3,
+    "name": "Wednesday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "08:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": 4,
+    "name": "Thursday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "08:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": 5,
+    "name": "Friday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "08:00",
+    "endTime": "17:00"
+  },
+  {
+    "id": 6,
+    "name": "Saturday",
+    "restDay": true,
+    "isshowTime": true,
+    "mittagspause": true,
+    "isDisable": false,
+    "startTime": "08:00",
+    "endTime": "17:00"
+  }
+]
